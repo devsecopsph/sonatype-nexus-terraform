@@ -3,7 +3,7 @@ locals {
 
   nexus_users = {
     devsecops = {
-      firstname = "Ems"
+      firstname = "ems"
       lastname  = "Guo"
       email     = "ems@emerson.local"
       roles     = ["nx-admin"]
@@ -13,6 +13,7 @@ locals {
       lastname  = "Lim"
       email     = "sarah.lim@emerson.local"
       roles     = ["nx-developer-dev"]
+    }
   }
 
   nexus_roles = {
